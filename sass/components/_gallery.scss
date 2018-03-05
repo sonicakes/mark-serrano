@@ -1,0 +1,7 @@
+
+div.galleryRow > div {
+    padding: 0;
+}
+div.galleryRow div:nth-child(even) {
+    padding-top: 4rem;
+}
