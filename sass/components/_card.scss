@@ -24,15 +24,15 @@
    
 
    &-1{
-    background-image:url("../../img/kitty1.jpg");
+    background-image:url("../img/kitty1.jpg");
     background-size: cover;
 }
 &-2{
-    background-image:url("../../img/kitty2.jpg");
+    background-image:url("../img/kitty2.jpg");
     background-size: cover;
 }
 &-3{
-    background-image:url("../../img/kitty3.jpg");
+    background-image:url("../img/kitty3.jpg");
     background-size: cover;
 }
 
@@ -48,7 +48,7 @@
     }
     
         &:hover &__side--front{
-            transform: rotateY(180deg);
+            transform: rotateY(-180deg);
             cursor: pointer;
         }
     
