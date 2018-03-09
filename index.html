@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Nunito:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -145,43 +145,111 @@
     <div class="container">
       <div class="row m-3 p-3">
         <div class="col-md-4 ">
+          <a href="#illustration">
+
+       
             <div class="cardPrev">
                 <div class="cardPrev__side cardPrev__side--front cardPrev__side--front-1">
-                    Illustration-front
+                  <div class="cardPrev__picture cardPrev__picture--1">
+                    &nbsp;
+                    </div>
+                    <h4 class="cardPrev__heading">
+                        <span class="cardPrev__heading-span cardPrev__heading-span--1">
+                              Illustration
+                        </span>
+           
+                    </h4>
+                    <div class="cardPrev__details">
+                <ul>
+                    <li>project 1</li>
+                    <li>project 1</li>
+                    <li>project 1</li>
+               
+                </ul>
+                    </div>
                 </div>
                 <div class="cardPrev__side cardPrev__side--back ">
-                    Illustration-back
-                   <h3>click to see more</h3>
+                   <h3 class="text-center h1">Illustration</h3>
+                <p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus laudantium dolore ullam tenetur magni asperiores. Earum aliquam atque</p>
+                
+                <button type="button" class=" button btn text-center" style="border-radius: 200px;">
+                    See All Projects
+                  </button>
                 </div>
             </div>
+            </a>            
           </div>
           <div class="col-md-4">
+              <a href="#lettering">
               <div class="cardPrev">
                   <div class="cardPrev__side cardPrev__side--front cardPrev__side--front-2">
-                      Lettering-Front
+                    <div class="cardPrev__picture cardPrev__picture--2">
+                      &nbsp;
+                      </div>
+                      <h4 class="cardPrev__heading">
+                          <span class="cardPrev__heading-span cardPrev__heading-span--2">
+                                Lettering
+                          </span>
+             
+                      </h4>
+                      <div class="cardPrev__details">
+                  <ul>
+                      <li>project 1</li>
+                      <li>project 1</li>
+                      <li>project 1</li>
+                 
+                  </ul>
+                      </div>
                   </div>
                   <div class="cardPrev__side cardPrev__side--back ">
-                      Lettering-Back
-                      <h3>click to see more</h3>
+                      <h3 class="text-center h1">Lettering</h3>
+                      <p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus laudantium dolore ullam tenetur magni asperiores. Earum aliquam atque</p>
+                      
+                      <button type="button" class=" button btn text-center" style="border-radius: 200px;">
+                          See All Projects
+                        </button>
                   </div>
               </div>
+              </a>
             </div>
             <div class="col-md-4">
+                <a href="#design">
                 <div class="cardPrev">
                     <div class="cardPrev__side cardPrev__side--front cardPrev__side--front-3">
-                        Design-Front
+                        <div class="cardPrev__picture cardPrev__picture--3">
+                            &nbsp;
+                            </div>
+                            <h4 class="cardPrev__heading">
+                                <span class="cardPrev__heading-span cardPrev__heading-span--3">
+                                    Design
+                                </span>
+                   
+                            </h4>
+                            <div class="cardPrev__details">
+                        <ul>
+                            <li>project 1</li>
+                            <li>project 1</li>
+                            <li>project 1</li>
+                       
+                        </ul>
+                            </div>
                     </div>
                     <div class="cardPrev__side cardPrev__side--back ">
-                        Design-Back
-                        <h3>click to see more</h3>
+                        <h3 class="text-center h1">Design</h3>
+                        <p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus laudantium dolore ullam tenetur magni asperiores. Earum aliquam atque</p>
+                        
+                        <button type="button" class=" button btn text-center" style="border-radius: 200px;">
+                            See All Projects
+                          </button>
                     </div>
                 </div>
+                </a>
               </div>
     </div>
   </section>
 
   <!-- Illustration -->
-  <section class="fsSection bg-white py-5 ">
+  <section class="fsSection bg-white py-5 " id="illustration">
       <h2 class="text-center text-dark">Illustration</h2>
     <div class="container">
       <!-- Mobile -->
@@ -208,13 +276,57 @@
   </section>
 
   <!-- Design -->
-  <section class="fsSection">
-
+  <section class="fsSection bg-white" id="design">
+      <h2 class="text-center text-dark">Design</h2>
+      <div class="container">
+        <!-- Mobile -->
+        <div class="row galleryRow d-md-none">
+          <div class="col-12">
+            <img class="img-fluid" src="img/puppy1.jpg">
+            <img class="img-fluid" src="img/puppy2.jpg">
+            <img class="img-fluid" src="img/puppy3.jpg">
+            <img class="img-fluid" src="img/puppy4.jpg">
+          </div>
+        </div>
+        <!-- Desktop -->
+        <div class="row galleryRow d-none d-md-flex">
+          <div class="col-6">
+            <img class="img-fluid" src="img/puppy1.jpg">
+            <img class="img-fluid" src="img/puppy2.jpg">
+          </div>
+          <div class="col-6">
+            <img class="img-fluid" src="img/puppy3.jpg">
+            <img class="img-fluid" src="img/puppy4.jpg">
+          </div>
+        </div>
+      </div>
   </section>
 
   <!-- Lettering -->
-  <section class="fsSection">
-
+  <section class="fsSection bg-white" id="lettering">
+      <h2 class="text-center text-dark">Lettering</h2>
+      <div class="container">
+        <!-- Mobile -->
+        <div class="row galleryRow d-md-none">
+          <div class="col-12">
+            <img class="img-fluid" src="img/puppy1.jpg">
+            <img class="img-fluid" src="img/puppy2.jpg">
+            <img class="img-fluid" src="img/puppy3.jpg">
+            <img class="img-fluid" src="img/puppy4.jpg">
+          </div>
+        </div>
+        <!-- Desktop -->
+        <div class="row galleryRow d-none d-md-flex">
+          <div class="col-6">
+            <img class="img-fluid" src="img/puppy1.jpg">
+            <img class="img-fluid" src="img/puppy2.jpg">
+          </div>
+          <div class="col-6">
+            <img class="img-fluid" src="img/puppy3.jpg">
+            <img class="img-fluid" src="img/puppy4.jpg">
+          </div>
+        </div>
+      </div>
   </section>
 
   <!-- Contact Us -->

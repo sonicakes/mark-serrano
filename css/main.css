@@ -145,27 +145,66 @@ div.galleryRow div:nth-child(even) {
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1.4rem 4rem rgba(255, 255, 255, 0.3);
     color: white;
     font-size: 2rem; }
-    .cardPrev__side--front-1 {
-      background-image: url("../../img/kitty1.jpg");
-      background-size: cover; }
-    .cardPrev__side--front-2 {
-      background-image: url("../../img/kitty2.jpg");
-      background-size: cover; }
-    .cardPrev__side--front-3 {
-      background-image: url("../../img/kitty3.jpg");
-      background-size: cover; }
+    .cardPrev__side--front {
+      background-color: white; }
     .cardPrev__side--back {
       transform: rotateY(180deg);
       background-color: #00207f; }
   .cardPrev:hover .cardPrev__side--front {
-    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
     cursor: pointer; }
   .cardPrev:hover .cardPrev__side--back {
     transform: rotateY(0);
     cursor: pointer; }
+  .cardPrev__picture {
+    background-size: cover;
+    height: 30rem;
+    background-blend-mode: overlay;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+    .cardPrev__picture--1 {
+      background-image: linear-gradient(to right bottom, #00207f, white), url("../img/Interstellar.jpg"); }
+    .cardPrev__picture--2 {
+      background-image: linear-gradient(to right bottom, #00207f, white), url("../img/letter.jpg"); }
+    .cardPrev__picture--3 {
+      background-image: linear-gradient(to right bottom, #00207f, white), url("../img/design.jpg"); }
+  .cardPrev__heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 12rem;
+    right: 2rem;
+    text-align: right;
+    width: 75%; }
+  .cardPrev__heading-span {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone; }
+    .cardPrev__heading-span--1 {
+      background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.85), rgba(0, 128, 0, 0.85)); }
+    .cardPrev__heading-span--2 {
+      background-image: linear-gradient(to right bottom, rgba(255, 0, 0, 0.85), rgba(255, 165, 0, 0.85)); }
+    .cardPrev__heading-span--3 {
+      background-image: linear-gradient(to right bottom, rgba(165, 42, 42, 0.85), rgba(128, 128, 128, 0.85)); }
+  .cardPrev__details {
+    padding: 3rem;
+    background-clip: white;
+    color: black; }
+    .cardPrev__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .cardPrev__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .cardPrev__details ul li:not(:last-child) {
+          border-bottom: 1px solid #00207f; }
 
 #landing {
   /* view height 100% of the viewport */
